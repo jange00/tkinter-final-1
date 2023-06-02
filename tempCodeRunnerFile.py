@@ -1,3 +1,2 @@
-img0= PhotoImage(file="b5.png")
-# label1=Label(window, image= img0)
-# label1.pack(fill=X)
+o=Frame(frame,width=180,height=2,bg='black')
+# o.place(x=60,y=240)  

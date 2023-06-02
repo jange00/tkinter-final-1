@@ -82,7 +82,6 @@ Password.bind('<FocusIn>',enter) #that it becomes the active element that can re
 Password.bind('<FocusOut>',leave)  #meaning that it is no longer the active element that can receive user input.
 
 def hide():
-    print('Hide')
     openeye.config(file='eye1.png')
     Password.config(show='*')
     eyebutton.config(command=show)
